@@ -69,7 +69,7 @@ function HomeLayout({ children }) {
               <Link to="/Contact">Contact Us</Link>
             </li>
             <li>
-              <Link to="/About">About Us</Link>
+              <Link to="/Denied">About Us</Link>
             </li>
             {!isLoggedIn && (
               <li className="w-[90%] absolute  bottom-4">

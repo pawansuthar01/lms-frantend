@@ -22,7 +22,7 @@ function CoursesList() {
           Explore the courses made by
           <span className="text-yellow-400 font-bold"> Industry exports </span>
         </h1>
-        <div className="mb-10 flex flex-wrap gap-14 justify-center">
+        <div className="mb-10 flex flex-wrap gap-14 justify-center ">
           {courseData?.map((elements) => {
             return <CourseCard key={elements._id} Data={elements} />;
           })}
